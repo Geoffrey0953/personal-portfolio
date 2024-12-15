@@ -3,19 +3,10 @@ import history from "../constants/history.json";
 
 const Experience = () => {
 
-  const getImageUrl = (imageName) => {
-    try {
-      return require(`../assets/${imageName}`);
-    } catch (error) {
-      console.error(`Image not found: ${imageName}`);
-      return "";
-    }
-  };
-
   return (
     <section className="py-16 text-neutral-300">
       {/* Title */}
-      <h2 className="text-center text-4xl font-bold mb-12">
+      <h2 className="text-center text-4xl tracking-widest font-bold mb-12">
         EXPERIENCE
       </h2>
 
@@ -29,7 +20,7 @@ const Experience = () => {
             {/* Organization Logo */}
             <div className="flex-shrink-0">
               <img
-                src={getImageUrl(historyItem.imgSrc)}
+                src={(historyItem.imgSrc)}
                 alt={`${historyItem.organization} Logo`}
                 className="w-24 h-24 object-contain rounded-md"
               />

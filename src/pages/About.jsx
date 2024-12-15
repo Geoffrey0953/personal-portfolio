@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
 import AboutComponent from "../components/About";
 import Experience from "../components/Experience";
-
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 const About = () => {
   return (
@@ -22,6 +23,10 @@ const About = () => {
       </div>
 
       <Experience />
+
+      <Projects />
+
+      <Contact />
     </div>
   );
 };

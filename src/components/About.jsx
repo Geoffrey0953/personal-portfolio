@@ -6,7 +6,7 @@ import uiIcon from "../assets/uiIcon.png";
 const AboutComponent = () => {
   return (
     <div>
-      <h2 className="text-center text-4xl font-bold uppercase tracking-wide mb-8">
+      <h2 className="text-center text-4xl font-bold uppercase tracking-widest mb-8">
           About
         </h2>
         <div className="flex flex-col lg:flex-row items-center gap-12">

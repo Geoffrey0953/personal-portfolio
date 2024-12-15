@@ -1,0 +1,37 @@
+[
+    {
+        "title": "FilmBERT",
+        "imgSrc": "",
+        "description": "FilmBERT is a cutting-edge movie recommendation platform that combines natural language processing (NLP) and machine learning to deliver highly personalized movie suggestions. By leveraging the power of Sentence-BERT embeddings, FilmBERT understands the context and intent behind user queries, allowing for natural language inputs like “feel-good comedies with romance” or “dark thrillers similar to Inception.” ",
+        "skills": ["React", "Sentence-BERT", "Django", "HTML/CSS"], 
+        "demo": "https://filmbert.vercel.app/",
+        "source": "https://github.com/Geoffrey0953/FilmBert"
+    },
+
+    {
+        "title": "Dinesafe",
+        "imgSrc": "",
+        "description": "DineSafe is a web application created during the Web Jam Hackathon to promote food safety by providing real-time restaurant health inspection information. Users can search for restaurants and view their inspection records, fostering transparency and informed dining choices. The platform earned second place for its innovative approach, technical execution, and team collaboration.",
+        "skills": ["MongoDB", "Express", "React", "Node"],
+        "demo": "https://dinesafe.vercel.app/",
+        "source": "https://github.com/Geoffrey0953/Web-Jam-Hackathon"
+    },
+    
+    {
+        "title": "Bot Geff",
+        "imgSrc": "",
+        "description": "BotGeff is a powerful Discord bot built with Python and discord.py to enhance server engagement with features like music playback, AI-driven conversations, and performance tracking. Its music system supports playing, pausing, skipping, and queueing songs via YouTube with youtube_dl and FFmpeg, ensuring high-quality playback. The bot also integrates OpenAI's GPT API for AI-powered chat, offering quick, responsive interactions",
+        "skills": ["Python", "API Integration", "OpenAI"],
+        "demo": "",
+        "source": "https://github.com/Geoffrey0953/Discord-Bot"
+    },
+    
+    {
+        "title": "Visign",
+        "imgSrc": "",
+        "description": "ViSign is a real-time American Sign Language translator developed at LA Hacks 2024. It uses machine learning and generative AI to convert sign language gestures into text and spoken audio, fostering accessibility and communication. The project features an intuitive interface, precise gesture recognition, and seamless audio output, making it a powerful tool for bridging language barriers.",
+        "skills": ["React", "PyTorch", "Jupyter", "Docker"],
+        "demo": "",
+        "source": "https://github.com/AshokSaravanan222/LAHacks24"
+    }
+]
