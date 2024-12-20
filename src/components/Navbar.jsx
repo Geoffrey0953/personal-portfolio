@@ -24,7 +24,14 @@ const Navbar = () => {  return (
 				hover:shadow-lg hover:scale-105">
 					About
 				</a>
-        <a href="https://linkedin.com/in/geoffrey-lee-525816236"
+        <a href="https://docs.google.com/document/d/12HxG27wvGcpEIpK4KeL2AHrL-a8NaWkCxfhFwKuAAD4/edit?usp=sharing" 
+				className="relative bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text 
+				text-transparent text-xl font-bold py-2 px-4 border border-transparent 
+				rounded-lg hover:border-blue-600 transition-all duration-300 shadow-md 
+				hover:shadow-lg hover:scale-105">
+					Resume
+				</a>
+        {/* <a href="https://linkedin.com/in/geoffrey-lee-525816236"
 				className="relative bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text 
 				text-transparent text-xl font-bold py-2 px-4 border border-transparent 
 				rounded-lg hover:border-blue-600 transition-all duration-300 shadow-md 
@@ -37,7 +44,7 @@ const Navbar = () => {  return (
 				rounded-lg hover:border-blue-600 transition-all duration-300 shadow-md 
 				hover:shadow-lg hover:scale-105">
           Github
-        </a>
+        </a> */}
       </div>
     </nav>
   );

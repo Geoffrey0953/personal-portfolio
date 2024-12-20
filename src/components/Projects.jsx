@@ -1,6 +1,13 @@
 import projects from "../constants/projects.json";
 
 const Projects = () => {
+  const cardColors = [
+    { from: "#FF6F61", to: "#D7263D" }, // Warm gradient
+    { from: "#6A0572", to: "#A6036D" }, // Purple gradient
+    { from: "#0078AA", to: "#00A7E1" }, // Blue gradient
+    { from: "#F7B801", to: "#FD5E53" }, // Yellow-Orange gradient
+  ];
+
   return (
     <section className="mt-20 text-white mx-10">
       <h2 className="text-4xl font-bold tracking-widest uppercase text-center mb-10">
@@ -10,12 +17,12 @@ const Projects = () => {
         {projects.map((project, id) => (
           <div
             key={id}
-            className="rounded-2xl bg-gradient-to-br from-[#4c3f94] to-[#201f3f] shadow-lg shadow-indigo-900/50 hover:shadow-indigo-400/50 transition-all duration-300 p-6 flex flex-col h-full"
+            className={`rounded-2xl bg-gradient-to-br from-[${cardColors[id % cardColors.length].from}] to-[${cardColors[id % cardColors.length].to}] shadow-lg shadow-indigo-900/50 hover:shadow-indigo-400/50 transition-all duration-300 p-6 flex flex-col h-full border border-gray-700/50 hover:border-indigo-400`}
           >
             <div className="mb-4">
             </div>
-            <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-            <p className="text-sm text-gray-300 flex-grow">
+            <h3 className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-6">{project.title}</h3>
+            <p className="text-sm text-slate-200 flex-grow">
               {project.description}
             </p>
             <ul className="mt-4 flex flex-wrap gap-2">
@@ -33,7 +40,7 @@ const Projects = () => {
                 href={project.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-semibold rounded-full bg-indigo-500 px-6 py-2 text-white hover:bg-indigo-600 transition duration-300"
+                className="text-sm font-semibold rounded-full bg-indigo-500 px-6 py-2 text-white hover:bg-[#7A9AF2] transition duration-300"
               >
                 Demo
               </a>
@@ -41,7 +48,7 @@ const Projects = () => {
                 href={project.source}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-semibold rounded-full bg-indigo-500 px-6 py-2 text-white hover:bg-indigo-600 transition duration-300"
+                className="text-sm font-semibold rounded-full bg-indigo-500 px-6 py-2 text-white hover:bg-[#7A9AF2] transition duration-300"
               >
                 Source
               </a>
