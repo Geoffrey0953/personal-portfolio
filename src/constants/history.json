@@ -9,7 +9,7 @@
         "Collaborating with clinical team",
         "Using AWS to train model"
       ],
-      "imgSrc": "assets/ark.png"
+      "imgSrc": "/assets/ark.png"
     },
     {
       "role": "Coding Instructor",
@@ -20,7 +20,7 @@
         "Led a class of 4",
         "Instructed students regarding projects and software development life cycle"
       ],
-      "imgSrc": "assets/ark.png"
+      "imgSrc": "/assets/ark.png"
     }
   ]
   

@@ -1,7 +1,14 @@
 import React from "react";
 import history from "../constants/history.json";
+import arkLogo from "../assets/ark.png";
+import codingMindsLogo from "../assets/coding_minds_academy_logo.jpeg";
 
 const Experience = () => {
+  // Map company names to their respective imported logos
+  const companyLogos = {
+    "Ark Clinical Research": arkLogo,
+    "Coding Minds": codingMindsLogo // You can replace this with the correct logo
+  };
 
   return (
     <section className="py-16 text-neutral-300">
@@ -20,7 +27,7 @@ const Experience = () => {
             {/* Organization Logo */}
             <div className="flex-shrink-0">
               <img
-                src={(historyItem.imgSrc)}
+                src={companyLogos[historyItem.organization]}
                 alt={`${historyItem.organization} Logo`}
                 className="w-24 h-24 object-contain rounded-md"
               />

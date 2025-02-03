@@ -24,7 +24,7 @@ const Navbar = () => {  return (
 				hover:shadow-lg hover:scale-105">
 					About
 				</a>
-        <a href="https://docs.google.com/document/d/12HxG27wvGcpEIpK4KeL2AHrL-a8NaWkCxfhFwKuAAD4/edit?usp=sharing" 
+        <a href="https://drive.google.com/file/d/1TaTNLL87GJRfYm-vN2MxR6tihwJ-su_-/view?usp=sharing" 
 				className="relative bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text 
 				text-transparent text-xl font-bold py-2 px-4 border border-transparent 
 				rounded-lg hover:border-blue-600 transition-all duration-300 shadow-md 
