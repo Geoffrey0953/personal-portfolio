@@ -68,7 +68,7 @@ const AboutComponent = () => {
                   Hobbies
                 </h3>
                 <p className="text-lg text-neutral-400">
-                In my free time, I enjoy to play games, experiment in the kitchen, 
+                In my free time, I enjoy playing games, experiment in the kitchen, 
                 explore new cafes, watch Korean dramas, watch the NBA, and spend quality time 
                 with friends. If any of these align with your interests, feel free to connect!     
                 </p>

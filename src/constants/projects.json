@@ -1,5 +1,13 @@
 [
     {
+        "title": "Planit",
+        "imgSrc": "",
+        "description": "Planit is a hackathon project that allows users to plan their itineraries when travelling! It provides a simple interface for creating, managing, and tracking tasks, with features like task scheduling, reminders, and progress tracking. Users can set priorities, deadlines, and dependencies, ensuring they stay on top of their responsibilities and achieve their goals.",
+        "skills": ["React", "Sentence-BERT", "Django", "HTML/CSS"], 
+        "demo": "https://devpost.com/software/planit-n7is89?ref_content=my-projects-tab&ref_feature=my_projects",
+        "source": "https://github.com/Geoffrey0953/IrvineHacks"
+    },
+    {
         "title": "FilmBERT",
         "imgSrc": "",
         "description": "FilmBERT is a cutting-edge movie recommendation platform that combines natural language processing (NLP) and machine learning to deliver highly personalized movie suggestions. By leveraging the power of Sentence-BERT embeddings, FilmBERT understands the context and intent behind user queries, allowing for natural language inputs like “feel-good comedies with romance” or “dark thrillers similar to Inception.” ",
