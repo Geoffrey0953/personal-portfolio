@@ -46,7 +46,7 @@ const AboutComponent = () => {
               />
               <div>
                 <h3 className="text-xl font-semibold">
-                  Aspiring Software Engineer
+                  Software Engineer
                 </h3>
                 <p className="text-lg text-neutral-400">
                   I am committed to continuous learning and growth in the field of technology. 
