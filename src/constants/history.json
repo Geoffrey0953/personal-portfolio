@@ -1,13 +1,35 @@
 [
     {
+      "role": "Software Engineer (Capstone)",
+      "organization": "Microsoft",
+      "startDate": "Jan, 2026",
+      "endDate": "Present",
+      "experiences": [
+        "Spearheading a global collaboration platform projected to serve 500+ Microsoft engineers and 50+ university programs across 10+ countries, replacing fragmented email workflows with a unified project management system"
+      ],
+      "imgSrc": "/assets/ark.png"
+    },
+    {
+      "role": "AWS Student Ambassador @ UCI",
+      "organization": "AWS",
+      "startDate": "July, 2025",
+      "endDate": "December, 2025",
+      "experiences": [
+        "Led hands-on cloud computing workshops for 200+ students, teaching AWS fundamentals through guided labs covering EC2 auto-scaling, Lambda functions, RDS database management, and S3 static site hosting.",
+        "Partnered with AWS faculty to develop advanced curriculum featuring Generative AI integration via AWS Bedrock, full-stack development with Amplify, and event-driven serverless architectures",
+        "Designed supplementary learning resources and documentation to support student learning beyond workshops"
+      ],
+      "imgSrc": "/assets/ark.png"
+    },
+    {
       "role": "Software Engineering Intern",
       "organization": "Ark Clinical Research",
       "startDate": "Dec, 2024",
       "endDate": "May, 2025",
       "experiences": [
-        "Developing an AI bot",
-        "Collaborating with clinical team",
-        "Using AWS to train model"
+        "Reduced patient pre-screening time by 67% (45 min to 15 min) by building an MVP AI chatbot utilizing AWS Lex and Bedrock, processing 150+ patient inquiries during pilot phase",
+        "Processed 10,000+ pages of clinical protocols using AWS Textract and Bedrock Knowledge Bases, enabling natural language queries with 89% accuracy based on clinician evaluation",
+        "Enforced HIPAA-aligned security practices including AWS KMS envelope encryption for data at rest"
       ],
       "imgSrc": "/assets/ark.png"
     },

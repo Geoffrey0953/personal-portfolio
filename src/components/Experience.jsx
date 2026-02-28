@@ -2,12 +2,16 @@ import React from "react";
 import history from "../constants/history.json";
 import arkLogo from "../assets/ark.png";
 import codingMindsLogo from "../assets/coding_minds_academy_logo.jpeg";
+import awsLogo from "../assets/aws_logo.svg";
+import microsoftLogo from "../assets/microsoft_logo.svg";
 
 const Experience = () => {
   // Map company names to their respective imported logos
   const companyLogos = {
     "Ark Clinical Research": arkLogo,
-    "Coding Minds": codingMindsLogo // You can replace this with the correct logo
+    "Coding Minds": codingMindsLogo,
+    "AWS": awsLogo,
+    "Microsoft": microsoftLogo,
   };
 
   return (

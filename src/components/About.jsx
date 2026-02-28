@@ -1,4 +1,4 @@
-import professionalPhoto from "../assets/IMG_9655.jpg";
+import professionalPhoto from "../assets/SAM_2046.jpg";
 import serverIcon from "../assets/serverIcon.png";
 import cursorIcon from "../assets/cursorIcon.png";
 import uiIcon from "../assets/uiIcon.png";
@@ -31,7 +31,7 @@ const AboutComponent = () => {
                   Student @ UCI
                 </h3>
                 <p className="text-lg text-neutral-400">
-                  I'm currently a 3rd year majoring in Software Engineering! My releveant courses are
+                  I'm currently a 4th year majoring in Software Engineering looking for new grad positions! My releveant courses are
                   Data Structures and Algorithm, Software Testing and Quality Assurance, Software Design, and much more!
                 </p>
               </div>

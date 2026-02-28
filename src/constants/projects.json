@@ -1,5 +1,21 @@
 [
     {
+        "title": "Spots",
+        "imgSrc": "",
+        "description": "Engineering a full-stack discovery platform enabling users to create, rank, and share curated location lists, featuring Redis caching and JWT authentication",
+        "skills": ["AWS", "FastAPI", "React", "React Native", "SQL", "Google Places", "Redis", "JWT"],
+        "demo": "",
+        "source": "https://github.com/Geoffrey0953/spots"
+    },
+    {
+        "title": "Agentic Job Application Tracker",
+        "imgSrc": "",
+        "description": "Developed a full-stack agentic AI application leveraging Next.js, React, TypeScript, FastAPI, and AWS Bedrock that autonomously generates tailored job application materials, reducing manual resume customization time by 80%. Architected an agentic orchestrator that uses Claude 3.5 Sonnet to dynamically plan multi-step workflows, execute AI-powered tasks (resume generation, cover letter writing, ATS scoring), and autonomously recover from errors.",
+        "skills": ["AWS Bedrock", "FastAPI", "React", "Next.js", "PostgreSQL", "SQLAlchemy"],
+        "demo": "",
+        "source": "https://github.com/Geoffrey0953/agentic_job_application_tracker"
+    },
+    {
         "title": "Planit",
         "imgSrc": "",
         "description": "Planit is a hackathon project that allows users to plan their itineraries when travelling! It provides a simple interface for creating, managing, and tracking tasks, with features like task scheduling, reminders, and progress tracking. Users can set priorities, deadlines, and dependencies, ensuring they stay on top of their responsibilities and achieve their goals.",
